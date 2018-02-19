@@ -16,7 +16,7 @@ public class ConnectableObservableSample {
     }
 
     /**
-     * publish(): 데이터의 발행을 유예 시킴.
+     * publish(): 데이터의 발행을 유예 시킴. [ connect()가 호출되기 전까지. ]
      * connect(): 실제 데이터를 발행시킴.
      */
     public void emit() {
