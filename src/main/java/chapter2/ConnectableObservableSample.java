@@ -15,6 +15,10 @@ public class ConnectableObservableSample {
         }
     }
 
+    /**
+     * publish(): 데이터의 발행을 유예 시킴.
+     * connect(): 실제 데이터를 발행시킴.
+     */
     public void emit() {
         String[] dataSet = { "RED", "GREEN", "BLUE" };
         Observable<String> observable = Observable.interval(100L, TimeUnit.MILLISECONDS)
