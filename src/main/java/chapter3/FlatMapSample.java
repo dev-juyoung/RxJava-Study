@@ -96,8 +96,11 @@ public class FlatMapSample {
         System.out.println(String.valueOf(dan) + "단의 연산을 실행합니다.");
 
         instance.basicJava(dan);
+        System.out.println();
         instance.simpleRxJava(dan);
+        System.out.println();
         instance.usingFlatMap(dan);
+        System.out.println();
         instance.usingFlatMapResultSelector(dan);
     }
 }
